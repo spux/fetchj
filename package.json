@@ -1,0 +1,19 @@
+{
+  "name": "fetchj",
+  "version": "0.0.1",
+  "description": "Universal URI content fetcher (http/https/file/data) for Node.js and browsers",
+  "main": "index.js",
+  "browser": "index.js",
+  "bin": {
+    "fetchj": "./cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["fetch", "uri", "http", "file", "data-uri", "isomorphic", "browser", "node", "cli"],
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
